@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Header: Gsanchez $  2011.10 redesign : misc link corrections 12/27/2011   -->
+<bnNavFE timeid="86" styleid="1">
+	<logos>
+		<logo tag="default">
+			<img url="/presources/images/navbar/2010/nav_logo_trans.png" width="192" height="52" alt="Barnes &amp; Noble bn.com"/>
+			<link copy="Barnes &amp; Noble bn.com" url="/" host="webhost"/>
+		</logo>
+	</logos>
+	
+	<tabs>		
+		<tab tag="help" type="admin">
+			<link copy="Order Status" url="/account/request.aspx?stage=orderStatus" host="netaccounthost" rel="nofollow"/>
+		</tab>
+		<tab tag="help" type="admin">
+			<link copy="My NOOK" url="http://mynook.barnesandnoble.com/home.html" rel="nofollow"/>
+		</tab>
+		<tab tag="help" type="admin">
+			<link copy="Stores &amp; Events" url="/" host="dotcomstorelocatorhost" rel="nofollow"/>
+		</tab>
+		<tab tag="help" type="admin">
+			<link copy="Help" url="/help/help.asp" host="webhost" rel="nofollow"/>
+		</tab>
+		<tab tag="acctsetting" type="myaccount">
+			<link copy="Account Settings" url="/account/request.aspx?stage=mainStage" host="netaccounthost" rel="nofollow"/>
+		</tab>
+		<!-- <tab tag="nooklib" type="myaccount">
+			<link copy="My NOOK Library" url="/ebooks/ebookslibrary.html" host="communityhost" rel="nofollow"/>
+		</tab> -->
+		<!-- 
+		<tab tag="mybn" type="myaccount">
+			<link copy="My B&amp;N" url="/communityportal/userprofile.aspx" host="communityhost" rel="nofollow"/>
+		</tab>	 -->	 
+		<!-- <tab tag="status" type="myaccount">
+			<link copy="Order Status" url="/account/request.aspx?stage=orderStatus" host="netaccounthost" rel="nofollow"/>
+		</tab> -->
+		<tab tag="wishlist" type="myaccount">
+			<link copy="Wish List" url="/communityportal/WishList.aspx" host="communityhost" rel="nofollow"/>
+		</tab>
+	
+
+		<tab tag="books" type="product">
+			<img url="/presources/images/navbar/tabs/tab_books" width="70" height="36" alt="Books"/>
+			<link copy="Books" url="/u/books-bestselling-books/379003057/" host="webhost"/>			
+			<param w1024="59" w1280="69" />
+			<menuitems tag="books">		
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Customer Favorites"/>
+					</menuitem>
+					<menuitem tag="top100">
+						<link copy="B&amp;N Top 100" url="/u/Bestseller-Books/379001057/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="nytbest">
+						<link copy="NY Times Bestsellers" url="/u/new-york-times-bestsellers-books/379001143/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="winners">
+						<link copy="Best Books of the Month" url="/u/Books-Fiction-Nonfiction-Must-Reads/379002364/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="flying">
+						<link copy="Trending Books" url="/u/flying-off-the-shelf-hot-books/379002431" host="webhost"/>
+					</menuitem>
+					<menuitem tag="newreleases">
+						<link copy="New Releases" url="/u/New-books-Fiction-non-fiction-bestsellers/379001263/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="comingsoon">
+						<link copy="Coming Soon" url="/u/books-coming-soon/379002181/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="recommended">
+						<link copy="Recommended" url="/container/storefront.asp?PID=35042" host="webhost"/>
+					</menuitem>
+					
+					
+					<menuitem tag="best2011">
+						<link copy="Best of 2011" url="/u/Best-of-2011/379003303" host="webhost"/>
+					</menuitem>
+					
+					<menuitem tag="awardwin">
+						<link copy="Award Winners " url="/u/book-awards/379003334" host="webhost"/>
+					</menuitem>
+					
+					<menuitem tag="bestbysubj">
+						<link copy="Bestsellers by Subject" url="/bestsellers/top10everything.asp" host="webhost"/>
+					</menuitem>
+					
+					<menuitem tag="classics">
+						<link copy="Barnes &amp; Noble Classics" url="/u/Classic-Books-Barnes-and-Noble-Classics/379003245" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+  		
+				
+				<menuitemgroup tag="second" col="2">
+					<menuitem tag="hdr2">
+						<link copy="Subjects"/>
+					</menuitem>
+					<menuitem tag="biography">
+						<link copy="Biography" url="/u/biography-books-memoirs-celebrities/379001134/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="business">
+						<link copy="Business" url="/u/Business-Books-Real-Estate-Finance/379001093/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="cookbooks">
+						<link copy="Cookbooks" url="/u/cookbooks-recipes-wine-books-TV-Cooks/379001130/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="fiction">
+						<link copy="Fiction" url="/u/Fiction-Books-Novels-Literature/379001088/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="graphic">
+						<link copy="Graphic Novels" url="/u/Manga-Books-Graphic-Novels/379003113" host="webhost"/>
+					</menuitem>					
+					<menuitem tag="history">
+						<link copy="History" url="/u/History-Books-Historical-Biographies-Historians/379001118/" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="mystery">
+						<link copy="Mystery" url="/u/Mysteries-Crime-Fiction-Thrillers-Police-Detective-Novels/379003051" host="webhost"/>
+					</menuitem>
+					<menuitem tag="religion">
+						<link copy="Religion &amp; Inspiration" url="/subjects/religion/index.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="science">
+						<link copy="Science Fiction/Fantasy" url="/u/Science-Fiction-Fantasy-Books-Bestsellers-New-Releases/379003055" host="webhost"/>
+					</menuitem>
+					<menuitem tag="self-Improvement">
+						<link copy="Self-Improvement" url="/u/self-help-love-advice-healing-inspirational-books/379000203/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/subjects/subjects.asp" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="third" col="3">
+					<menuitem tag="hdr3">
+						<link copy="Departments"/>
+					</menuitem>
+					<menuitem tag="nookbooks">
+						<link copy="NOOK Books" url="/u/NOOK-Book-eBook-store/379003094" host="webhost"/>
+					</menuitem>
+<!-- 					<menuitem tag="kidsbooks">
+						<link copy="Kids' Books" url="/u/childrens-books-kids-books/379001718/" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="teenbooks">
+						<link copy="Teen Books" url="/u/teens-teen-books/379001099/" host="webhost"/>
+					</menuitem>-->
+					<menuitem tag="bargainbooks">
+						<link copy="Bargain Books" url="/bargain-books/bargains.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="paperback">
+						<link copy="The Paperback Store" url="/u/paperback-books-new-releases-bestsellers/379001727/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="calendars">
+						<link copy="Calendars" url="/u/Wall-and-Desk-Calendars-Planners-Mini-Calendars/379002173/" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="rare">
+						<link copy="Rare &amp; Collectible" url="/rare-collectible/index.asp" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="libros">
+						<link copy="Libros en espa&#241;ol" url="/u/Libros-en-espanol-Spanish-Books-Learn-Spanish/379001126/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="audiomp3">
+						<link copy="Audio &amp; MP3 Books" url="/u/Audio-Books-on-CD-and-MP3-Audiobooks/379001091/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="marketplace">
+						<link copy="B&amp;N Marketplace" url="/marketplace/" host="webhost"/>
+					</menuitem>					
+<!-- 					<menuitem tag="professional">
+						<link copy="Professional &amp; Technical Store" url="/u/Books-Professional-Books-Medicine-Law-Engineering/379002395" host="webhost"/>
+					</menuitem> -->
+				</menuitemgroup>		
+								
+				<menuitemgroup tag="forth" col="3">
+					<menuitem tag="hdr4">
+						<link copy="B&amp;N Exclusives"/>
+					</menuitem>
+					<menuitem tag="review">
+						<link copy="B&amp;N Review" url="http://bnreview.barnesandnoble.com/" /> 
+					</menuitem>
+					<menuitem tag="studio">
+						<link copy="B&amp;N Studio" url="/bn-studio/videos-podcasts/index.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="bookclubs">
+						<link copy="Blogs &amp; Forums" url="/t5/community/communitypage?nobounce" host="bookclubshost"/>
+					</menuitem> 
+					<menuitem tag="promotions">
+						<link copy="Promotions" url="/u/coupons-deals-discounts/379003106" host="webhost"/>
+					</menuitem> 
+				</menuitemgroup>
+		
+			</menuitems>
+		</tab> 
+		
+
+		<tab tag="ebooks" type="product">
+			<img url="/presources/images/navbar/tabs/tab_ebooks" width="78" height="36" alt="eBooks"/>
+			<link copy="NOOK Books" url="/u/NOOK-Book-eBook-store/379003094" host="webhost"/>				
+			<param w1024="101" w1280="113" />
+			<menuitems tag="ebooks">			
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Customer Favorites"/>
+					</menuitem>
+					<menuitem tag="top100">
+						<link copy="B&amp;N Top 100" url="/ebooks/bestsellers.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="nytbest">
+						<link copy="NY Times Bestsellers" url="/ebooks/category.asp?PID=34522" host="webhost"/>
+					</menuitem>
+					<menuitem tag="trending">
+						<link copy="Trending NOOK Books" url="/u/ebooks-flying-off-the-shelf-hot-books/379002432" host="webhost"/>
+					</menuitem>
+					<menuitem tag="newreleases">
+						<link copy="New Releases" url="/ebooks/new-releases.asp?PID=28407" host="webhost"/>
+					</menuitem>
+					<menuitem tag="coming">
+						<link copy="Coming Soon" url="/s?srt=sa&amp;sze=10&amp;store=ebook&amp;pub=c" host="webhost"/>
+					</menuitem>
+					<menuitem tag="deals">
+						<link copy="NOOK Books Deals" url="/u/eBook-Deals-eBook-Offers/379001679/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="espanol">
+						<link copy="NOOK Books en espa&#241;ol" url="/ebooks/category.asp?PID=28507" host="webhost"/>
+					</menuitem> 	
+					<menuitem tag="bnclassics">
+						<link copy="B&amp;N Classics" url="/ebooks/category.asp?PID=34011" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="lendmebooks">
+						<link copy="LendMe&amp;trade; Books" url="/ebooks/category.asp?PID=32720" host="webhost"/>
+					</menuitem>
+					<menuitem tag="pubit">
+						<link copy="PubIt!&amp;trade; Books" url="/u/pubit-self-publish-ebook-publishing/379002433/" host="webhost"/>
+					</menuitem>		
+				</menuitemgroup>
+				
+				<menuitemgroup tag="second" col="2">
+					<menuitem tag="hdr2">
+						<link copy="Subjects"/>
+					</menuitem>
+					<menuitem tag="biography">
+						<link copy="Biography" url="/ebooks/category.asp?PID=28494" host="webhost"/>
+					</menuitem>
+					<menuitem tag="fiction">
+						<link copy="Fiction" url="/ebooks/category.asp?PID=34542" host="webhost"/>
+					</menuitem>
+					<menuitem tag="fitness">
+						<link copy="Health &amp; Fitness" url="/ebooks/category.asp?PID=35613" host="webhost"/>
+					</menuitem>
+					<menuitem tag="history">
+						<link copy="History" url="/ebooks/category.asp?PID=34775" host="webhost"/>
+					</menuitem>
+					<menuitem tag="mystery">
+						<link copy="Mystery" url="/ebooks/category.asp?PID=34396" host="webhost"/>
+					</menuitem>
+					<menuitem tag="politics">
+						<link copy="Politics &amp; Current Affairs" url="/ebooks/category.asp?PID=35612" host="webhost"/>
+					</menuitem>
+					<menuitem tag="religion">
+						<link copy="Religion &amp; Inspiration" url="/ebooks/category.asp?PID=34773" host="webhost"/>
+					</menuitem>
+					<menuitem tag="romance">
+						<link copy="Romance" url="/ebooks/category.asp?PID=34386" host="webhost"/>
+					</menuitem>
+					<menuitem tag="scifi">
+						<link copy="Sci-Fi &amp; Fantasy" url="/ebooks/category.asp?PID=34388" host="webhost"/>
+					</menuitem>
+					<menuitem tag="selfimprovement">
+						<link copy="Self-Improvement" url="/ebooks/category.asp?PID=34772" host="webhost"/>
+					</menuitem>
+					<menuitem tag="teenbooks">
+						<link copy="Teen Books" url="/ebooks/category.asp?PID=34391" host="webhost"/>
+					</menuitem>
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/ebooks/browse.asp" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="third" col="3">
+					<menuitem tag="hdr3">
+						<link copy="Departments"/>
+					</menuitem>
+					<menuitem tag="comics">
+						<link copy="NOOK Comics" url="/u/NOOK-Comics-Graphic-Novels-Manga/379003302" host="webhost"/>
+					</menuitem>
+					<menuitem tag="kidsbooks">
+						<link copy="Kids' Books" url="/u/childrens-ebooks-kids-ereaders-ebooks-digital-animated/379002530/" host="webhost"/>
+					</menuitem> 							
+					<menuitem tag="read2me">
+						<link copy="NOOK Kids Read To Me&amp;trade;" url="/s?cat=833709&amp;store=ebook&amp;fmt=k2" host="webhost"/>
+					</menuitem>
+					<menuitem tag="readplay">
+						<link copy="NOOK Kids Read and Play&amp;trade;" url="/ebooks/category.asp?PID=37879" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="newsstand">
+						<link copy="Newsstand" url="/nook-newsstand-digital" host="webhost"/>
+					</menuitem>
+					<menuitem tag="NOOKApps">
+						<link copy="NOOK Apps" url="/u/nook-apps/379002908 " host="webhost"/>
+					</menuitem>										
+				</menuitemgroup>  
+				
+				<menuitemgroup tag="fourth" col="3">
+					<menuitem tag="hdr4">
+						<link copy="NOOK Store"/>
+					</menuitem>
+					<menuitem tag="shop">
+						<link copy="Shop NOOK" url="/nook/index.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="freeapps">
+						<link copy="Free Reading Apps" url="/u/free-nook-apps/379002321/" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="library">
+						<link copy="My NOOK Library" url="/ebooks/ebookslibrary.html" host="communityhost"/>
+					</menuitem>
+				</menuitemgroup>
+			</menuitems>			 
+		</tab>
+
+
+		<tab tag="nook" type="product">
+			<img url="/presources/images/navbar/tabs/tab_nook" width="62" height="36" alt="nook"/>
+			<link copy="NOOK" url="/nook/index.asp" host="webhost"></link>
+			<param w1024="66" w1280="77" />
+			<menuitems tag="nook">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="NOOK Tablet"/>
+					</menuitem>
+					<menuitem tag="overview">
+						<link copy="Overview" url="/p/nook-tablet-barnes-noble/1104687969" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="features">
+						<link copy="Features" url="/p/nook-tablet-barnes-noble/1104687969" host="webhost"/>
+					</menuitem>
+					<menuitem tag="accessories">
+						<link copy="Accessories" url="/u/NOOK-Tablet-accessories/379003239" host="webhost"/>
+					</menuitem>
+					<menuitem tag="support">
+						<link copy="Support" url="/u/Support-NOOK-Tablet/379003185" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="firstLower" col="1">
+					<menuitem tag="hdr1-b">
+						<link copy="NOOK Color"/>
+					</menuitem>
+					<menuitem tag="overview">
+						<link copy="Overview" url="/p/nook-color-barnes-noble/1100437663" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="features">
+						<link copy="Features" url="/p/nook-color-barnes-noble/1100437663" host="webhost"/>
+					</menuitem>
+					<menuitem tag="accessories">
+						<link copy="Accessories" url="/u/NOOK-Color-accessories/379003240" host="webhost"/>
+					</menuitem>
+					<menuitem tag="support">
+						<link copy="Support" url="/u/Support-NOOK-Color/379003188" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+  				
+				<menuitemgroup tag="second" col="2">
+					<menuitem tag="hdr2">
+						<link copy="NOOK Simple Touch"/>
+					</menuitem>
+					<menuitem tag="overview">
+						<link copy="Overview" url="/p/nook-simple-touch-barnes-noble/1102344735" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="features">
+						<link copy="Features" url="/p/nook-simple-touch-barnes-noble/1102344735" host="webhost"/>
+					</menuitem>
+					<menuitem tag="accessories">
+						<link copy="Accessories" url="/u/NOOK-Simple-Touch-accessories/379003241" host="webhost"/>
+					</menuitem>
+					<menuitem tag="support">
+						<link copy="Support" url="/u/Support-NOOK-Simple-Touch/379003176" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="secondLower" col="2">
+					<menuitem tag="hdr2-b">
+						<link copy="NOOK Store"/>
+					</menuitem>
+					<menuitem tag="books">
+						<link copy="Books" url="/u/NOOK-Books/379003209" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Newsstand">
+						<link copy="Newsstand" url="/u/NOOK-Newsstand/379003210" host="webhost"/> 
+					</menuitem>
+					<menuitem tag="kids">
+						<link copy="Kids' Books" url="/u/NOOK-Kids/379003211" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Apps">
+						<link copy="Apps"  url="/u/NOOK-Apps/379003212" host="webhost"/>
+					</menuitem>					
+					<menuitem tag="Accessories">
+						<link copy="Accessories"  url="/u/NOOK-Accessories/379003183" host="webhost"/>
+					</menuitem>
+					<!-- <menuitem tag="menu-see-more">
+						<link copy="Shop All"  url="/u/nook-store/379002961" host="webhost"/>
+					</menuitem> -->
+				</menuitemgroup>
+				
+				<menuitemgroup tag="third" col="3">
+					<menuitem tag="hdr3">
+						<link copy="Free Reading Apps"/>
+					</menuitem>
+					<menuitem tag="android">
+						<link copy="NOOK for Android&amp;trade;" url="/u/nook-for-android/379002287/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="iphone"> 
+						<link copy="NOOK for iPhone&amp;reg;" url="/u/nook-for-iphone-ipod-touch/379002320/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="ipad">
+						<link copy="NOOK for iPad&amp;trade;" url="/u/nook-for-iPad/379002216" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="pc">  
+						<link copy="NOOK for PC&amp;trade;" url="/u/nook-for-pc/379002322/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="mac">
+						<link copy="NOOK for Mac&amp;trade;" url="/u/nook-for-mac/379002740" host="webhost"/>
+					</menuitem>  			
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/u/free-nook-apps/379002321/" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+					
+			</menuitems>
+		</tab>
+
+		
+		<tab tag="textbooks" type="product">
+			<img url="/presources/images/navbar/tabs/tab_textbooks" width="99" height="36" alt="Textbooks"/>
+			<link copy="Textbooks" url="/u/textbooks-college-textbooks/379002366/" host="webhost"/>
+			<param w1024="87" w1280="98" />
+			<menuitems tag="textbooks">
+			
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Departments"/>
+					</menuitem>
+					<menuitem tag="rental">
+						<link copy="Rental" url="/u/rent-textbooks-textbook-rental/379002518" host="webhost"/>
+					</menuitem>
+					<menuitem tag="used">
+						<link copy="Used" url="/u/used-textbooks/379002519" host="webhost"/>
+					</menuitem>
+					<menuitem tag="eTextbooks">
+						<link copy="eTextbooks" url="/u/etextbooks-digital-textbooks/379002516" host="webhost"/>
+					</menuitem>
+					<menuitem tag="new">
+						<link copy="New" url="/u/new-textbooks/379002517" host="webhost"/>
+					</menuitem>
+					<menuitem tag="sell">
+						<link secure="1" copy="Sell Your Textbooks" url="/TextbookBuyback/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="faq">
+						<link copy="FAQ" url="/container/2-3-merch.asp?PID=36201" host="webhost"/>
+					</menuitem>					
+				</menuitemgroup>	
+				
+				<menuitemgroup tag="second" col="2">
+					<menuitem tag="hdr2">
+						<link copy="Subjects"/>
+					</menuitem> 					
+					<menuitem tag="business">
+						<link copy="Business" url="/s/business-finance?dref=838" host="webhost"/>
+					</menuitem>
+					<menuitem tag="computer">
+						<link copy="Computer" url="/s/computer-science?dref=838" host="webhost"/>
+					</menuitem>
+					<menuitem tag="education">
+						<link copy="Education" url="/s/education?dref=838" host="webhost"/>
+					</menuitem>
+					<menuitem tag="history">
+						<link copy="History" url="/s/history?dref=838" host="webhost"/>
+					</menuitem>
+					<menuitem tag="medicine">
+						<link copy="Medicine" url="/s/medicine?dref=838" host="webhost"/>
+					</menuitem>
+					<menuitem tag="philosophy">
+						<link copy="Philosophy" url="/s/philosophy?dref=838" host="webhost"/>
+					</menuitem>
+					<menuitem tag="politics">
+						<link copy="Politics &amp; Current Affairs" url="/s/politics-government?dref=838" host="webhost"/>
+					</menuitem>
+					<menuitem tag="psychology">
+						<link copy="Psychology" url="/s/psychology?dref=838" host="webhost"/>
+					</menuitem>
+					<menuitem tag="science">
+						<link copy="Science" url="/s/science?dref=838" host="webhost"/>
+					</menuitem>
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/u/textbooks-college-textbooks/379002366/" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>			
+				
+				<menuitemgroup tag="third" col="3">
+					<menuitem tag="hdr3">
+						<link copy="NOOKstudy"/>
+					</menuitem>
+					<menuitem tag="overview">
+						<link copy="Overview" url="/nookstudy/index.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="download">
+						<link copy="Download for Free" url="/nookstudy/download/index.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="reviews">
+						<link copy="Reviews" url="/nookstudy/reviews/index.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="professor">
+						<link copy="For Professors" url="/nookstudy/professors/index.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="support">
+						<link copy="Support" url="/nookstudy/support/index.asp" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>		
+			</menuitems> 
+		</tab>
+
+		<tab tag="periodicals" type="product">
+			<img url="" width="" height="" alt=""/>
+			<link copy="Newsstand" url="/u/newsstand-print-digital-news/379003354" host="webhost"></link>
+			<param w1024="92" w1280="103" />
+			<menuitems tag="periodicals">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="NOOK Newsstand"/>
+					</menuitem>
+					<menuitem tag="magazines">
+						<link copy="NOOK Magazines" url="/u/nook-magazines-digital/379003355" host="webhost"/>
+					</menuitem>
+					<menuitem tag="newspapers">
+						<link copy="NOOK Newspapers" url="/u/nook-newspapers-digital/379003356" host="webhost"/>
+					</menuitem>
+					<menuitem tag="periodicals">
+						<link copy="All NOOK Periodicals" url="/u/nook-newsstand-digital/379003373" host="webhost"/>
+					</menuitem>
+					<menuitem tag="free">  
+						<link copy="Top Free Trials" url="/s?cat=2248899&amp;store=emag&amp;view=grid" host="webhost"/>
+					</menuitem>
+					<menuitem tag="hot"> 
+						<link copy="Hot New Titles" url="/u/new-digital-magazines-newspapers/379002473/" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="third" col="2">
+					<menuitem tag="hdr3">
+						<link copy="Print Newsstand"/>
+					</menuitem>
+					<menuitem tag="printmag">
+						<link copy="All Print Magazines" url="/u/magazines-print-subscriptions/379003357" host="webhost"/>
+					</menuitem>
+					<menuitem tag="bestsubscrip">
+						<link copy="Bestselling Subscriptions" url="/s?store=magazines&amp;srt=sa" host="webhost"/>
+					</menuitem>
+					<menuitem tag="singles">
+						<link copy="Single Copies" url="/s?store=magazines&amp;pst=q1" host="webhost"/>
+					</menuitem>
+					<menuitem tag="under10">
+						<link copy="Subscriptions Under $10" url="/s?srt=sa&amp;store=magazines&amp;sze=10&amp;aref=1534" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="second" col="3">
+					<menuitem tag="hdr2">
+						<link copy="NOOK Favorites"/>
+					</menuitem>
+					<menuitem tag="favwomens">
+						<link copy="Women's Magazines" url="/search/results.aspx?store=EBOOK&amp;cat=2268041" host="crossproducthost"/>
+					</menuitem>
+					<menuitem tag="favmens">
+						<link copy="Men's Magazines" url="/search/results.aspx?store=EBOOK&amp;cat=2268042" host="crossproducthost"/> 
+					</menuitem>
+					<menuitem tag="business">
+						<link copy="Business Publications" url="/s?store=ebook&amp;cat=2268043" host="webhost"/>
+					</menuitem>		
+				</menuitemgroup>
+
+				<menuitemgroup tag="fourth" col="3">
+					<menuitem tag="hdr4">
+						<link copy="Print Favorites"/>
+					</menuitem>
+					<menuitem tag="womens">
+						<link copy="Women's Magazines" url="/s?srt=sa&amp;sze=10&amp;store=magazines&amp;typ=z&amp;cat=1023388" host="webhost"/>
+					</menuitem>
+					<menuitem tag="mens">
+						<link copy="Men's Magazines" url="/s?store=magazines&amp;cat=1021958&amp;fmt=33" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+			</menuitems>
+		</tab>
+
+		<tab tag="teens" type="product">
+			<img url="/presources/images/navbar/tabs/tab_teens" width="70" height="36" alt="Teen's."/>
+			<link copy="Teens" url="/u/teens-teen-books/379003056/" host="webhost"/>
+			<param w1024="57" w1280="68" />
+			<menuitems tag="teens">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Customer Favorites"/>
+					</menuitem>
+					<menuitem tag="bestsellers">
+						<link copy="Bestsellers" url="/s?store=book&amp;cat=914099&amp;srt=sa" host="webhost"/>
+					</menuitem>
+					<menuitem tag="mustreads">
+						<link copy="Must-Reads" url="/u/must-reads-for-teens/379002318" host="webhost"/>
+					</menuitem>
+					<menuitem tag="newreleases">
+						<link copy="New Releases" url="/u/new-releases-teen-books/379002317/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="comingsoon">
+						<link copy="Coming Soon" url="/container/2-3-merch-multi-pid.asp?PID=37872" host="webhost"/>
+					</menuitem>
+					<menuitem tag="nookbooks">
+						<link copy="NOOK Books" url="/ebooks/category.asp?PID=28515" host="webhost"/>
+					</menuitem>
+					<menuitem tag="best2011">
+						<link copy="Best Books of 2011" url="/s?PRO=1245&amp;store=book&amp;view=grid" host="webhost"/>
+					</menuitem> 
+				</menuitemgroup>
+
+				<menuitemgroup tag="second" col="1">
+					<menuitem tag="hdr2">
+						<link copy="Popular Authors"/>
+					</menuitem>
+					<menuitem tag="dessen">
+						<link copy="Sarah Dessen" url="/s/sarah-dessen?store=book" host="webhost"/>
+					</menuitem>
+					<menuitem tag="hopkins">
+						<link copy="Ellen Hopkins" url="/s/ellen-hopkins?store=book" host="webhost"/>
+					</menuitem>
+					<menuitem tag="scott">
+						<link copy="Michael Scott" url="/s/michael-scott?store=book" host="webhost"/>
+					</menuitem>
+					<menuitem tag="clare">
+						<link copy="Cassandra Clare" url="/s/cassandra-clare?store=book" host="webhost"/>
+					</menuitem>
+					<menuitem tag="westerfeld">
+						<link copy="Scott Westerfeld" url="/s/scott-westerfeld?store=book" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="third" col="2">
+					<menuitem tag="hdr3">
+						<link copy="Subjects"/>
+					</menuitem>
+					<menuitem tag="edgy">
+						<link copy="Edgy Stories for Teens" url="/u/teens-edgy-books-stories/379002372/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="fantasy">
+						<link copy="Fantasy &amp; Adventure" url="/u/Fantasy-and-Adventure/379002217/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="youngwomen">
+						<link copy="Girls &amp; Young Women" url="/browse/nav.asp?env=web&amp;bncatid=716221&amp;visgrp=fiction" host="endecahost"/>
+					</menuitem>
+					<menuitem tag="romance">
+						<link copy="Paranormal Romance" url="/u/paranormal-teen-romance-dark-romance/379002329/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="reference">
+						<link copy="Reference &amp; Study Guides" url="/s?cat=2274122&amp;store=book" host="webhost"/>
+					</menuitem>
+					<menuitem tag="friendship">
+						<link copy="Romance &amp; Friendship" url="/browse/nav.asp?env=web&amp;visgrp=children%27s&amp;bncatid=720348" host="endecahost"/>
+					</menuitem> 
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/subjects/teens/browse.asp" host="webhost"/>
+					</menuitem>
+				</menuitemgroup> 
+
+				<menuitemgroup tag="fourth" col="2">
+					<menuitem tag="hdr4">
+						<link copy="Award Winners"/>
+					</menuitem>
+					<menuitem tag="mlpawards">
+						<link copy="Michael L. Printz Awards" url="/browse/nav.asp?env=web&amp;bncatid=914099&amp;visgrp=fiction&amp;endecaid=800001394" host="endecahost"/>
+					</menuitem>
+					<menuitem tag="nationalawards">
+						<link copy="National Book Awards" url="/browse/nav.asp?env=web&amp;visgrp=fiction&amp;exp=800000000&amp;N=347701+800000200&amp;Ne=347701" host="endecahost"/>
+					</menuitem>
+					<menuitem tag="agathaawards">
+						<link copy="Agatha Awards" url="/browse/nav.asp?env=web&amp;endecaid=800001079&amp;visgrp=fiction&amp;bncatid=924386" host="endecahost"/>
+					</menuitem> 
+					<menuitem tag="edgarawards">
+						<link copy="Edgar Awards" url="/browse/nav.asp?env=web&amp;bncatid=924474&amp;visgrp=fiction&amp;endecaid=800001003" host="endecahost"/>
+					</menuitem>
+				</menuitemgroup>
+				<menuitemgroup tag="fifth" col="3">
+					<menuitem tag="hdr5">
+						<link copy="Bestselling Series"/>
+					</menuitem>
+					<menuitem tag="Inheritance">
+						<link copy="Inheritance Cycle" url="/u/Brisingr-Inheritance-Cycle/379000138/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="hunger">
+						<link copy="Hunger Games" url="/u/Hunger-Games-teen-books/379002315/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="twilight">
+						<link copy="Twilight" url="/bn-bookseries/twilight/index.asp?PID=30682" host="webhost"/>
+					</menuitem>
+					<menuitem tag="liars">
+						<link copy="Pretty Little Liars" url="/s?sid=365467&amp;store=book" host="webhost"/>
+					</menuitem>
+					<menuitem tag="wolves">
+						<link copy="Wolves of Mercy" url="/s?sid=653200&amp;store=book" host="webhost"/>
+					</menuitem>
+					<menuitem tag="night">
+						<link copy="House of Night" url="/s?sid=393597&amp;store=book" host="webhost"/>
+					</menuitem>
+					<menuitem tag="va">
+						<link copy="Vampire Academy" url="/s?sid=405964&amp;store=book" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+			</menuitems>
+		</tab>
+
+
+		<tab tag="kids" type="product">
+			<img url="/presources/images/navbar/tabs/tab_kids" width="61" height="36" alt="Children's Books."/>
+			<link copy="Kids" url="/u/childrens-books-kids-books/379003144" host="webhost"/>
+			<param w1024="48" w1280="59" />
+			<menuitems tag="kids">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Customer Favorites"/>
+					</menuitem>
+					<menuitem tag="bestsellers">
+						<link copy="Bestsellers" url="/s?store=kids&amp;srt=sa" host="webhost"/>
+					</menuitem>
+					<menuitem tag="StaffPicks">
+						<link copy="Staff Picks" url="/u/recommended-childrens-books/379003137/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="newreleases">
+						<link copy="New Releases" url="/s?store=kids&amp;pub=a&amp;srt=sa" host="webhost"/>
+					</menuitem>
+					<menuitem tag="comingsoon">
+						<link copy="Coming Soon" url="/s?store=kids&amp;pub=c" host="webhost"/>
+					</menuitem>  
+					<menuitem tag="create">
+						<link copy="Create Your Own Book" url="/u/kids-activities-publish-a-childrens-book/379002382" host="webhost"/>
+					</menuitem>
+					<menuitem tag="nookkids">
+						<link copy="NOOK Kids"  url="/u/childrens-ebooks-kids-ereaders-ebooks-digital-animated/379002530/" host="webhost"/>
+					</menuitem>
+				</menuitemgroup> 
+				<menuitemgroup tag="second" col="1">
+					<menuitem tag="hdr2">
+						<link copy="Age Groups"/>
+					</menuitem>
+					<menuitem tag="zero">
+						<link copy="0-2" url="/u/Baby-Books-Toddlers-Books/379001720/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="three">
+						<link copy="3-5" url="/u/Preschool-Books/379001721/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="six">
+						<link copy="6-8" url="/u/Childrens-Books-Kids-Books/379001722/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="nine">
+						<link copy="9-12" url="/u/Childrens-Books-Kids-Books/379001723/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="teen">
+						<link copy="Teens" url="/u/teens-teen-books/379001099/" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="third" col="2">
+					<menuitem tag="hdr3">
+						<link copy="Bestselling Series"/>
+					</menuitem>
+					<menuitem tag="wimp">
+						<link copy="Diary of a Wimpy Kid" url="/u/Diary-of-a-Wimpy-Kid/379000558/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="potter">
+						<link copy="Harry Potter" url="/u/harry-potter-books-harry-potter-7/379000100/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="losthero">
+						<link copy="The Worlds of Rick Riordan" url="/container/2-3-merch.asp?PID=27724" host="webhost"/>
+					</menuitem>
+					<menuitem tag="seuss">
+						<link copy="Dr. Seuss" url="/u/dr-seuss-store/379000201/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="americangirl">
+						<link copy="American Girl" url="/u/american-girl-books/379001423/" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="fourth" col="2">
+					<menuitem tag="hdr4">
+						<link copy="Formats"/>
+					</menuitem>
+					<menuitem tag="picture">
+						<link copy="Picture Books" url="/u/childrens-books-kids-baby-preschool-picture-book/379001084/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="board">
+						<link copy="Board Books" url="/browse/nav.asp?env=web&amp;bncatid=833709&amp;visgrp=children%27s&amp;endecaid=1026" host="endecahost"/>
+					</menuitem>
+					<menuitem tag="early">
+						<link copy="Early Readers" url="/browse/nav.asp?env=web&amp;bncatid=778313&amp;endecaid=visgrp" host="endecahost"/>
+					</menuitem>
+					<menuitem tag="paperbacks">
+						<link copy="Paperbacks" url="/browse/nav.asp?env=web&amp;bncatid=833709&amp;visgrp=children%27s&amp;endecaid=1012" host="endecahost"/>
+					</menuitem>
+					<menuitem tag="pop">
+						<link copy="Read To Me" url="/search/results.aspx?CAT=833709&amp;store=EBOOK&amp;FMT=K2" host="crossproducthost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="fifth" col="3">
+					<menuitem tag="hdr5">
+						<link copy="More for Kids"/>
+					</menuitem>
+					<menuitem tag="kidsipad">
+						<link copy="NOOK Kids for iPad" url="/u/nook-kids-for-ipad/379002615/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="toysgames">
+						<link copy="Toys &amp; Games" url="/u/Learning-Toys-Learning-Games/379001910/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="storytime">
+						<link copy="Online Storytime" url="/storytime/index.asp" host="webhost"/>
+					</menuitem><!-- 
+					<menuitem tag="finder">
+						<link copy="Gift Finder" url="/wizard/kidsgiftwizard.aspx" host="wizardhost"/>
+					</menuitem> -->
+					<menuitem tag="expert">
+						<link copy="B&amp;N Parents&#39; Expert Circle" url="/u/parenting-children-parenting-tips-advice/379002391" host="webhost"/>
+					</menuitem>
+					<menuitem tag="kidsclub">
+						<link secure="1" copy="B&amp;N Kids&#39; Club&amp;trade;" url="/kidsclub/" host="kidshost"/>
+					</menuitem>
+					<menuitem tag="school">
+						<link copy="B&amp;N @ School" url="/bn-at-school/index.asp?cds2Pid=31533" host="webhost"/>
+					</menuitem>
+					<menuitem tag="dvd">
+						<link copy="Kids' DVD" url="/u/Childrens-DVD-Kids-DVDs/379001724/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="music">
+						<link copy="Kids' Music" url="/u/Kids-Music-Childrens-Music/379001725" host="webhost"/>
+					</menuitem>					
+					<menuitem tag="vidgames">
+						<link copy="Video Games" url="/index.asp " host="videogamehost"/>
+					</menuitem> 
+				</menuitemgroup>
+			</menuitems>
+		</tab>
+
+
+		<tab tag="toysgames" type="product">
+			<img url="/presources/images/navbar/tabs/tab_toygames" width="126" height="36" alt="Toys &amp; Games"/>
+			<link copy="Toys &amp; Games" url="/u/Learning-Toys-Learning-Games/379003165/" host="webhost"/>
+			<param w1024="109" w1280="120" />
+			<menuitems tag="toysgames">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Popular Categories"/>
+					</menuitem>
+					<menuitem tag="bestsellers">
+						<link copy="Bestsellers" url="/toys-and-games/cdsSearch.aspx?SRT=SA&amp;SZE=20&amp;store=TOY&amp;CAT=1023976&amp;DCAT=1023976" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="games">
+						<link copy="Games for Grown-ups" url="/u/Games-for-Grownups/379002611/" host="giftshost"/>
+					</menuitem> 
+					<menuitem tag="baby">
+						<link copy="Baby &amp; Toddler Toys" url="/u/Baby-Toys-Toddler-Toys/379002547/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="lego">
+						<link copy="Building &amp; LEGO" url="/u/Building-Toys-Lego-Toys/379002586/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="crafts">
+						<link copy="Arts &amp; Crafts" url="/u/Arts-and-Crafts-for-Kids/379002584/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="puzzles">
+						<link copy="Puzzles" url="/u/Jigsaw-Puzzles-Kids-Puzzles/379002595/" host="giftshost"/>
+					</menuitem>  
+					<menuitem tag="stuffed">
+						<link copy="Dolls &amp; Stuffed Animals" url="/u/Toy-Dolls-Stuffed-Animals/379002588/" host="giftshost"/>
+					</menuitem>			
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/u/Learning-Toys-Learning-Games/379002576/" host="giftshost"/>
+					</menuitem> 
+				</menuitemgroup> 
+				
+				<menuitemgroup tag="second" col="1">
+					<menuitem tag="hdr2">
+						<link copy=" Brands &amp; Characters"/>
+					</menuitem>
+					<menuitem tag="frog">
+						<link copy="LeapFrog" url="/u/LeapFrog-Toys-Leapfrog-Games/379002598/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="lego">
+						<link copy="LEGO" url="/u/LEGO-Toys-LEGO-Games/379002597/" host="giftshost"/>						
+					</menuitem> 
+					<menuitem tag="md">
+						<link copy="Melissa &amp; Doug" url="/u/Melissa-Doug-Toys/379002599/" host="giftshost"/>						
+					</menuitem> 
+					<menuitem tag="hp">
+						<link copy="Harry Potter" url="/toys-and-games/cdsSearch.aspx?SRT=SA&amp;SZE=20&amp;store=TOY&amp;CAT=1024270&amp;DCAT=1024270" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="barbie">
+						<link copy="Barbie" url="/toys-and-games/cdsSearch.aspx?SRT=SA&amp;SZE=20&amp;store=TOY&amp;CAT=1024029,1024030&amp;DCAT=1024030" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup> 
+
+				<menuitemgroup tag="third" col="2">
+					<menuitem tag="hdr3">
+						<link copy="Age Groups"/>
+					</menuitem>
+					<menuitem tag="birth">
+						<link copy="Birth - 12 Months" url="/u/Toys-and-Games-Birth-12-Months/379002577/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="one">
+						<link copy="1-2" url="/u/Toys-and-Games-Ages-1-2/379002578/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="three">
+						<link copy="3-5" url="/u/Toys-and-Games-Ages-3-5/379002579/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="six">
+						<link copy="6-8" url="/u/Toys-and-Games-Ages-6-8/379002580/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="nine">
+						<link copy="9-11" url="/u/Toys-and-Games-Ages-9-11/379002581/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="twelve">
+						<link copy="12-14" url="/u/Toys-and-Games-Ages-12-14/379002582/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="grownups">
+						<link copy="Grown-ups" url="/u/Toys-and-Games-for-Grown-ups/379002583/" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="fourth" col="2">
+					<menuitem tag="hdr4">
+						<link copy="Price"/>
+					</menuitem>
+					<menuitem tag="sale">
+						<link copy="On Sale" url="/s?store=toy&amp;dis=y" host="webhost"/>
+					</menuitem>
+					<menuitem tag="under25">
+						<link copy="$25 and Under" url="/s?store=toy&amp;cat=1021007" host="webhost"/>
+					</menuitem>
+					<menuitem tag="2550">
+						<link copy="$25 - $50" url="/s?store=toy&amp;cat=1021008" host="webhost"/>
+					</menuitem>
+					<menuitem tag="50100">
+						<link copy="$50 - $100" url="/s?store=toy&amp;cat=1021009" host="webhost"/>
+					</menuitem> 
+				</menuitemgroup> 
+
+				<menuitemgroup tag="fifth" col="3">
+					<menuitem tag="hdr5">
+						<link copy="More for Kids"/>
+					</menuitem>
+					<menuitem tag="kids">
+						<link copy="Kids' Books" url="/u/Childrens-Books-Learning-Toys-Kids-DVDs/379001718" host="webhost"/>
+					</menuitem>
+					<menuitem tag="storytime">
+						<link copy="Online Storytime" url="/storytime/index.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="finder">
+						<link copy="Gift Finder" url="/wizard/kidsgiftwizard.aspx" host="wizardhost"/>
+					</menuitem>
+					<menuitem tag="school">
+						<link copy="B&amp;N @ School" url="/bn-at-school/index.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="expert">
+						<link copy="B&amp;N Parents&#39; Expert Circle" url="/u/parenting-children-parenting-tips-advice/379002391" host="webhost"/>
+					</menuitem>
+					<menuitem tag="kidsclub">
+						<link copy="B&amp;N Kids&#39; Club&amp;trade;" url="/kidsclub" host="kidshost"/>
+					</menuitem>
+					<menuitem tag="dvd">
+						<link copy="Kids' DVD" url="/u/Childrens-DVD-Kids-DVDs/379001724/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="music">
+						<link copy="Kids' Music" url="/u/Kids-Music-Childrens-Music/379001725" host="webhost"/>
+					</menuitem>
+					<menuitem tag="videogames">
+						<link copy="Video Games" url="/index.asp" host="videogamehost"/>
+					</menuitem>
+				</menuitemgroup>
+			</menuitems>
+		</tab>
+
+
+		<tab tag="video" type="product">
+			<img url="/presources/images/navbar/tabs/tab_movies" width="77" height="36" alt="DVD"/>
+			<link copy="DVDs" url="/u/DVD-Movies-Box-Sets-TV-Show-Blu-ray-Discs/379003201" host="webhost"/>
+			<param w1024="55" w1280="65" />
+			<menuitems tag="video">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Customer Favorites"/>
+					</menuitem>
+					<menuitem tag="bestsellers">
+						<link copy="Bestsellers" url="/u/DVD-Bestsellers/379000710/" host="videohost"/>
+					</menuitem>
+					<menuitem tag="newreleases">
+						<link copy="New Releases" url="/u/DVD-New-Releases/379000746" host="videohost"/>
+					</menuitem>
+					<menuitem tag="coming">
+						<link copy="Coming Soon" url="/dvds-coming-soon.asp" host="videohost"/>
+					</menuitem>
+					<menuitem tag="bluray">
+						<link copy="Blu-ray" url="/u/Bluray-DVD-HDDVD/379000711" host="videohost"/>
+					</menuitem>
+					<menuitem tag="box">
+						<link copy="Box Sets" url="/u/DVD-Box-Sets-Movie-and-Television-Collections/379000744" host="videohost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="second" col="1">
+					<menuitem tag="hdr2">
+						<link copy="Deals"/>
+					</menuitem>					
+					<menuitem tag="50off">
+						<link copy="50% Off DVDs" url="/collection.asp?PID=35111" host="videohost"/>
+					</menuitem>
+					<menuitem tag="girls">
+						<link copy="Girls' Night In " url="/u/Girls-Night-In-Movies-DVD-Blu-ray-/379002798/" host="videohost"/>
+					</menuitem>
+					<menuitem tag="dvdunder10">
+						<link copy="DVDs Under $10" url="/s?store=dvd&amp;fmt=dvd&amp;sze=10&amp;srt=sa&amp;prc=-10" host="webhost"/>
+					</menuitem>
+					<menuitem tag="blurayunder15">
+						<link copy="Blu-ray Under $15" url="/s?prc=-15&amp;srt=sa&amp;sze=10&amp;fmt=bluray&amp;store=dvd" host="webhost"/>
+					</menuitem>
+					<menuitem tag="dvddeals">
+						<link copy="See All Deals" url="/u/DVD-Save-on-Movie-Deals-of-the-Week/379000745/" host="videohost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="third" col="2">
+					<menuitem tag="hdr3">
+						<link copy="Genres"/>
+					</menuitem>
+					<menuitem tag="tv">
+						<link copy="TV on DVD" url="/container/stores.asp?PID=40749" host="webhost"/>
+					</menuitem>
+					<menuitem tag="action">
+						<link copy="Action" url="/u/Action-Movie-DVDs-Thrillers-Adventures/379000697" host="videohost"/>
+					</menuitem>
+					<menuitem tag="art">
+						<link copy="Art House/Foreign" url="/u/Art-House-Foreign-Films-on-DVD/379000699/" host="videohost"/>
+					</menuitem>
+					<menuitem tag="classics">
+						<link copy="Classics" url="/u/Classic-Movies-on-DVD/379000700" host="videohost"/>
+					</menuitem>
+					<menuitem tag="comedy">
+						<link copy="Comedy" url="/u/Comedy-Movies-DVDs/379000701" host="videohost"/>
+					</menuitem>
+					<menuitem tag="documentary">
+						<link copy="Documentary" url="/documentary/documentary_dvd.asp" host="videohost"/>
+					</menuitem>
+					<menuitem tag="drama">
+						<link copy="Drama" url="/drama/drama_dvd.asp" host="videohost"/>
+					</menuitem>
+					<menuitem tag="fitness">
+						<link copy="Fitness/Instructional" url="/fitness/fitness_instructional_dvd.asp" host="videohost"/>
+					</menuitem>
+					<menuitem tag="kids">
+						<link copy="Kids" url="/u/Childrens-DVD-Kids-DVDs/379001724" host="webhost"/>
+					</menuitem>
+					<menuitem tag="musicals">
+						<link copy="Music &amp; Musicals" url="/music/music_musicals_dvd.asp" host="videohost"/>
+					</menuitem>
+					<menuitem tag="scifi">
+						<link copy="Sci-Fi/Horror" url="/science_fiction/science_fiction_horror_dvd.asp" host="videohost"/>
+					</menuitem>					
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/browse-genre.asp" host="videohost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="fourth" col="3">
+					<menuitem tag="hdr4">
+						<link copy="Special Collections"/>
+					</menuitem>
+					<menuitem tag="asseen">
+						<link copy="As Seen On Public TV" url="/u/PBS-Public-TV/379000749" host="videohost"/>
+					</menuitem>
+					<menuitem tag="bbc">
+						<link copy="BBC" url="/u/DVD-The-BBC-on-DVD/379000757" host="videohost"/>
+					</menuitem>
+					<menuitem tag="british">
+						<link copy="British Television" url="/u/British-TV-BBC-Dr-Who-Upstairs-Downstairs/379002687" host="videohost"/>
+					</menuitem>
+					<menuitem tag="criterion">
+						<link copy="Criterion" url="/u/Criterion-Collection-Blu-ray-Disc-DVD-Special-Editions/379003202" host="webhost"/>
+					</menuitem>
+					<menuitem tag="disney">
+						<link copy="Disney" url="/u/DVD-BVHE-Walt-Disney-Classics-Miramax/379000773" host="videohost"/>
+					</menuitem>					
+					<menuitem tag="hbo">
+						<link copy="HBO" url="/u/HBO-on-DVD-Shows-Series-Movies/379000755" host="videohost"/>
+					</menuitem>			
+					<menuitem tag="yoga">
+						<link copy="Yoga Lifestyle" url="/u/Gaiam-Yoga-Fitness-DVDs-Mats-Balls-Bricks-Water-Bottles/379002221" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="fifth" col="3">			
+					<menuitem tag="hdr5">
+						<link copy="Related Categories"/>
+					</menuitem> 
+					<menuitem tag="players">
+						<link copy="Audio &amp; Video Electronics" url="/u/Audio-Video/379002896/" host="giftshost"/>
+					</menuitem>	 
+					<menuitem tag="Music">
+						<link copy="Music" url="/u/Music-CDs-New-Releases-Reviews-Box-Sets/379003222" host="webhost"/>
+					</menuitem>
+					<menuitem tag="posters">
+						<link copy="Video Games" url="/u/Video-Games/379003231" host="webhost"/>
+					</menuitem>					
+				</menuitemgroup>			
+
+			</menuitems>
+		</tab>
+
+		<!-- <tab tag="music" type="product">
+			<img url="/presources/images/navbar/tabs/tab_music" width="67" height="36" alt="Music"/>
+			<link copy="Music" url="/u/Music-CDs-New-Releases-Reviews-Box-Sets/379000826/" host="musichost"/>
+			<param w1024="" w1280="" />
+			<menuitems tag="music">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Customer Favorites"/>
+					</menuitem>
+					<menuitem tag="bestsellers">
+						<link copy="Bestsellers" url="/u/Bestselling-Music-CDs-Charts/379000846/" host="musichost"/>
+					</menuitem>
+					<menuitem tag="newreleases">
+						<link copy="New Releases" url="/u/New-Music-Releases-and-Bestselling-CDs/379002187" host="musichost"/>
+					</menuitem>
+					<menuitem tag="coming">
+						<link copy="Coming Soon" url="/music_cds_coming_soon.asp" host="musichost"/>
+					</menuitem>
+					<menuitem tag="box">
+						<link copy="Box Sets" url="/u/Music-Box-Sets-CD-Collections/379000903" host="musichost"/>
+					</menuitem>
+					<menuitem tag="grammy">
+						<link copy="Grammy &amp;reg;  Awards"
+ url="/u/Grammy-Award-Winners-CDs/379001022" host="musichost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="second" col="1">
+					<menuitem tag="hdr2">
+						<link copy="Deals"/>
+					</menuitem>
+					<menuitem tag="dvddeals">
+						<link copy="Music Deals" url="/u/Music-Deal-of-the-Day-CD-Bargains/379000902" host="musichost"/>
+					</menuitem>
+					<menuitem tag="exclusives">
+						<link copy="B&amp;N Exclusives" url="/u/Exclusive-Music-CDs/379000905" host="musichost"/>
+					</menuitem>
+					<menuitem tag="cdsale">
+						<link copy="$6.99 CD Sale" url="/u/Music-CDs-Sale/379001188/" host="musichost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="third" col="2">
+					<menuitem tag="hdr3">
+						<link copy="Genres"/>
+					</menuitem> 			
+					<menuitem tag="blues">
+						<link copy="Blues &amp; Folk Music" url="/blues-and-folk/blues-and-folk.asp " host="musichost"/>
+					</menuitem>
+					<menuitem tag="broadway">
+						<link copy="Broadway &amp; Vocal" url="/broadway-and-vocal/broadway-and-vocal-music.asp " host="musichost"/>
+					</menuitem> 				
+					<menuitem tag="children">
+						<link copy="Children's Music" url="/bn-junior/kids-collection.asp?PID=30229 " host="webhost"/>
+					</menuitem> 	
+					<menuitem tag="classical">
+						<link copy="Classical" url="/u/Classical-Music-CDs-New-Releases-Box-Sets-Opera/379000830" host="musichost"/>
+					</menuitem>
+					<menuitem tag="country">
+						<link copy="Country" url="/u/Country-Music-CDs-Bluegrass/379000832" host="musichost"/>
+					</menuitem>		
+					<menuitem tag="jazz">
+						<link copy="Jazz" url="/jazz/jazz-cds.asp" host="musichost"/>
+					</menuitem>
+					<menuitem tag="pop">
+						<link copy="Pop" url="/u/Pop-Music-CDs-Top-40-Pop-Rock-CDs/379000839" host="musichost"/>
+					</menuitem>
+					<menuitem tag="rock">
+						<link copy="Rock" url="/u/Rock-Music-CDs-Classic-Rock-Punk-Heavy-Metal/379000843" host="musichost"/>
+					</menuitem>
+					<menuitem tag="soundtracks">
+						<link copy="Soundtracks" url="/u/Soundtracks-CDs-Movie-Music-TV-Themes-Film-Scores/379000844" host="musichost"/>
+					</menuitem>
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/u/Browse-Music-Styles/379000917/" host="musichost"/>
+					</menuitem>
+				</menuitemgroup>
+					 
+				<menuitemgroup tag="fourth" col="3">
+					<menuitem tag="hdr4">
+						<link copy="Special Collections"/>
+					</menuitem>
+					<menuitem tag="discover">
+						<link copy="Discover Great New Music" url="/u/Discover-Great-New-Music/379000908" host="musichost"/>
+					</menuitem>
+					<menuitem tag="glee">
+						<link copy="Glee Store" url="/u/Glee-Soundtrack-Music-CDs-DVDs/379001886/" host="musichost"/>
+					</menuitem>
+					<menuitem tag="beatles">
+						<link copy="Beatles" url="/u/Beatles-CDs-Rock-Band/379001594/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="vinyl">
+						<link copy="Vinyl LPs" url="/s?frm=9&amp;store=music" host="webhost"/>
+					</menuitem>
+					<menuitem tag="den">
+						<link copy="Artists Den" url="/u/Artists-Den/379000840/" host="musichost"/>
+					</menuitem>
+				</menuitemgroup>
+
+				<menuitemgroup tag="fifth" col="3">
+					<menuitem tag="hdr5">
+						<link copy="Related Categories"/>
+					</menuitem>
+					<menuitem tag="bks">
+						<link copy="Music Books" url="/u/music-books/379002771" host="webhost"/>
+					</menuitem>
+					<menuitem tag="posters">
+						<link copy="Music Posters" url="/s/poster?srt=sa&amp;typ=p&amp;cat=1023442" host="webhost"/>
+					</menuitem>
+					<menuitem tag="dvd">
+						<link copy="Music DVDs" url="/u/Musicals-Concert-Movies-on-DVD/379000706" host="videohost"/>
+					</menuitem>
+					<menuitem tag="electronics">
+						<link copy="Electronics" url="/home-gift/container/category.asp?PID=36853" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>
+			</menuitems> 
+		</tab> -->
+
+		<tab tag="homeoffice" type="product">
+			<img url="/presources/images/navbar/tabs/tab_giftshome" width="113" height="36" alt="Home &amp; Gifts"/>
+			<link copy="Home &amp; Gifts" url="/u/home-gifts/379003110/" host="webhost"/>
+			<param w1024="106" w1280="118" />
+			<menuitems tag="homeoffice">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Popular Categories"/>
+					</menuitem>  
+					<menuitem tag="clearance">
+					<!-- D&#233;cor &amp; Stationery -->
+						<link copy="Clearance Sale" url="/u/gifts-sale-discounted-clearance/379100261/?SRT=SA&amp;SZE=100&amp;dCat=1024984&amp;PRO=13&amp;store=gift " host="giftshost"/>
+					</menuitem>  
+					<menuitem tag="Kitchen">
+						<link copy="Kitchen &amp; Housewares" url="/u/Kitchen-Housewares-Appliances/379002872/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="journals">
+						<link copy="Journals &amp; Planners" url="/u/journals/379000023/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="tote">
+						<link copy="Bags &amp; Totes" url="/u/Business-Travel/379001243/" host="giftshost"/>
+					</menuitem>			
+					<menuitem tag="art">
+						<link copy="Arts &amp; Crafts" url="/u/Arts-Crafts-Supplies/379002773/" host="giftshost"/>
+					</menuitem>		
+					<menuitem tag="accents">
+						<link copy="Decorative Accents" url="/u/decorative-accents/379000019/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="stationery">
+						<link copy="Stationery &amp; Writing" url="/u/stationery-wrap/379001245/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="food">
+						<link copy="Food &amp; Gourmet Gifts" url="/u/food-gourmet-gifts/379000662/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="office">
+						<link copy="Office &amp; Business Accessories " url="/u/desk-accessories/379000020/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/home-gift/index.asp" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="second" col="2">
+					<menuitem tag="hdr2">
+						<link copy="Gift Giving"/>
+					</menuitem>
+					<menuitem tag="bestsellers">
+						<link copy="Bestsellers" url="/s/?store=gift&amp;view=grid" host="webhost"/>
+					</menuitem>
+					<menuitem tag="new">
+						<link copy="What's New" url="/u/new-gifts/379002413/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="her">
+						<link copy="For Her" url="/home-gift/container/4-merch.asp?PID=24985" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="him">
+						<link copy="For Him" url="/home-gift/container/4-merch.asp?PID=24986" host="giftshost"/>
+					</menuitem>					
+				</menuitemgroup>
+				<menuitemgroup tag="third" col="2">
+					<menuitem tag="hdr3">
+						<link copy="Favorite Brands"/>
+					</menuitem>
+					<menuitem tag="moleskine">
+						<link copy="Moleskine" url="/u/Moleskine/379002375/" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="vera">
+						<link copy="Vera Bradley" url="/home-gift/container/category.asp?PID=25025" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="ecosystem">
+						<link copy="Ecosystem" url="/home-gift/container/category.asp?PID=29056" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="adler">
+						<link copy="Jonathan Adler" url="/home-gift/container/category.asp?PID=28171" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="fourth" col="3">
+					<menuitem tag="hdr4">
+						<link copy="Favorite Shops"/>
+					</menuitem>
+					<menuitem tag="hot">
+						<link copy="Hot Deals" url="/container/stores.asp?PID=39879" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="exper">
+						<link copy="Experiential Gifts" url="/home-gift/container/category.asp?PID=34727" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="eco">
+						<link copy="Eco Friendly Gifts" url="/home-gift/container/4-merch.asp?PID=37662" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="fifth" col="3">
+					<menuitem tag="hdr4Low">
+						<link copy="Price"/>
+					</menuitem>
+					<menuitem tag="sale">
+						<link copy="On Sale" url="/s?store=gift&amp;pro=13" host="webhost"/>
+					</menuitem>
+					<menuitem tag="under25">
+						<link copy="$25 and Under" url="/home-gift/container/4-merch.asp?PID=24995" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="twentyfive">
+						<link copy="$25 - $50" url="/home-gift/container/4-merch.asp?PID=24996" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="fifty">
+						<link copy="$50 - $100" url="/home-gift/container/4-merch.asp?PID=24997" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="hundred">
+						<link copy="$100 and Up" url="/home-gift/container/4-merch.asp?PID=24998" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+			</menuitems>
+		</tab>
+		
+		<tab tag="electronics" type="product"> 
+			<link copy="Electronics" url="/u/electronics/379003108/" host="webhost"/>
+			<param w1024="93" w1280="104" />
+			<menuitems tag="giftcards">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Popular Categories"/>
+					</menuitem>
+					<menuitem tag="new">
+						<link copy="What's Hot" url="/home-gift/container/4-merch.asp?PID=37966 " host="giftshost"/>
+					</menuitem>
+					<menuitem tag="HotDeals">
+						<link copy="Hot Deals" url="/best-deals.asp?PID=38318 " host="webhost"/>
+					</menuitem>
+
+					<menuitem tag="cameras">
+						<link copy="Cameras &amp; Camcorders" url="/home-gift/container/category.asp?PID=36855" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="audio">
+						<link copy="Audio &amp; Video" url="/home-gift/container/category.asp?PID=36853" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="headphones">
+						<link copy="Headphones" url="/home-gift/container/category.asp?PID=36858" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="netnote">
+						<link copy="Netbooks &amp; Notebooks" url="/home-gift/container/category.asp?PID=36862" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="gadgets">
+						<link copy="Gadgets &amp; Tools" url="/home-gift/container/category.asp?PID=36857" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="digframes">
+						<link copy="Digital Picture Frames" url="/home-gift/container/4-merch.asp?PID=36957" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="cases">
+						<link copy="Bags &amp; Carrying Cases" url="/home-gift/container/category.asp?PID=36854 " host="giftshost"/>
+					</menuitem>
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/u/electronics/379000661/" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>  
+
+				<menuitemgroup tag="second" col="2">
+					<menuitem tag="hdr2">
+						<link copy="Brands"/>
+					</menuitem>
+					<menuitem tag="iHome">
+						<link copy="iHome" url="/s?pn=ihome&amp;cat=1021158&amp;store=all&amp;sze=10&amp;srt=sa" host="webhost"/>
+					</menuitem>
+					<menuitem tag="olympus">
+						<link copy="Olympus" url="/s?pn=olympus&amp;cat=1021158&amp;store=all&amp;sze=10&amp;srt=sa" host="webhost"/>
+					</menuitem>
+					<menuitem tag="hp">
+						<link copy="Hewlett-Packard" url="/s?pn=hewlett-packard&amp;cat=1021158&amp;store=all&amp;sze=10&amp;srt=sa" host="webhost"/>
+					</menuitem>
+					<menuitem tag="samsung">
+						<link copy="Samsung" url="/s?pn=samsung&amp;cat=1021158&amp;store=all&amp;sze=10&amp;srt=sa" host="webhost"/>
+					</menuitem>
+					<menuitem tag="sandisk">
+						<link copy="Sandisk" url="/s?pn=sandisk&amp;cat=1021158&amp;store=all&amp;sze=10&amp;srt=sa" host="webhost"/>
+					</menuitem>
+					<menuitem tag="ingredient">
+						<link copy="Key Ingredient" url="/search/results.aspx?PN=Key+Ingredient&amp;CAT=1021158&amp;STORE=ALL&amp;SZE=10&amp;SRT=SA" host="crossproducthost"/>
+					</menuitem>
+					<menuitem tag="dre">
+						<link copy="Beats by Dr. Dre" url="/s?pn=monster cable products" host="webhost"/>
+					</menuitem>					
+					<menuitem tag="eton">
+						<link copy="Eton" url="/s?pn=eton&amp;cat=1021158&amp;store=all&amp;sze=10&amp;srt=sa" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+				<menuitemgroup tag="third" col="3">
+					<menuitem tag="hdr2">
+						<link copy="Price"/>
+					</menuitem>
+					<menuitem tag="onsale">
+						<link copy="On Sale" url="/s/?aref=1533&amp;dref=2009%2C2015" host="webhost"/>
+					</menuitem>
+					<menuitem tag="under10">
+						<link copy="Under $10" url="/s/?aref=1534&amp;dref=2009%2C2015" host="webhost"/>
+					</menuitem>
+					<menuitem tag="10-25">
+						<link copy="$10 - $25" url="/s/?aref=1535&amp;dref=2009%2C2015" host="webhost"/>
+					</menuitem>
+					<menuitem tag="25-50">
+						<link copy="$25 - $50" url="/s/?aref=1536&amp;dref=2009%2C2015" host="webhost"/>
+					</menuitem>
+					<menuitem tag="over50">
+						<link copy="Over $50" url="/s/?aref=1537&amp;dref=2009%2C2015" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>  
+								
+				<menuitemgroup tag="thirdLower" col="3">
+					<menuitem tag="hdr3-b">
+						<link copy="Related Categories"/>
+					</menuitem>
+					<menuitem tag="movies">
+						<link copy="Movies &amp; TV" url="/u/DVD-Movies-Box-Sets-TV-Show-Blu-ray-Discs/379003201" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Music">
+						<link copy="Music" url="/u/Music-CDs-New-Releases-Reviews-Box-Sets/379003222" host="webhost"/>
+					</menuitem>
+					<menuitem tag="VideoGames">
+						<link copy="Video Games" url="/index.asp" host="videogamehost"/>
+					</menuitem>
+				</menuitemgroup> 
+				
+			</menuitems>    		
+		</tab>
+		  
+		 <!-- <tab tag="artcraft" type="product" > 
+			<link copy="Arts &amp; Crafts" url="/u/Arts-Crafts-Supplies/379003109/" host="webhost"/>
+			<param w1024="" w1280="" />
+			<menuitems tag="artcraft">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Popular Categories"/>
+					</menuitem>
+					<menuitem tag="Scrapbooking">
+						<link copy="Scrapbooking" url="/u/Arts-Crafts-Scrapbooking/379002774" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="Supplies">
+						<link copy="Art Supplies" url="/u/Arts-Crafts-Art-Supplies/379002775" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="Crafting">
+						<link copy="Crafting" url="/u/Arts-Crafts-Crafting/379002776" host="giftshost"/>
+					</menuitem>			
+					<menuitem tag="Crochet">
+						<link copy="Knit &amp; Crochet" url="/u/Arts-Crafts-Knit-Crochet/379002777" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="Needle">
+						<link copy="Needle Arts" url="/u/Arts-Crafts-Needle-Arts/379002778" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="Sewing">
+						<link copy="Sewing &amp; Quilting" url="/u/Arts-Crafts-Sewing-Quilting/379002779" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="Jewelry">
+						<link copy="Jewelry &amp; Beading" url="/u/Arts-Crafts-Jewelry-Beading/379002780" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/u/Arts-Crafts-Supplies/379002773" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>     
+				<menuitemgroup tag="second" col="2">
+					<menuitem tag="hdr2">
+						<link copy="Favorite Brands"/>
+					</menuitem> 
+					<menuitem tag="Lion">
+						<link copy="Lion Brand" url="/s/lion-brand?dref=2009&amp;pn=lion-brand&amp;size=100" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Cricut">
+						<link copy="Cricut" url="/s/craft?store=gift&amp;pn=provo-craft&amp;sort=PD&amp;size=100" host="webhost"/>
+					</menuitem>
+					<menuitem tag="ek">
+						<link copy="EK Success" url="/s/ek-success?store=gift&amp;size=100" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Sizzix">
+						<link copy="Sizzix" url="/s/sizzix?store=gift&amp;size=100" host="webhost"/>
+					</menuitem>					 
+					<menuitem tag="Coats">
+						<link copy="Coats" url="/s/coats?dref=2009,2011&amp;size=100" host="webhost"/>
+					</menuitem>
+					<menuitem tag="MS">
+						<link copy="Martha Stewart" url="/s/Martha-Stewart?store=gift&amp;size=100" host="webhost"/> 
+					</menuitem>
+					<menuitem tag="Wilton">
+						<link copy="Wilton" url="/s/?dref=2009&amp;pn=wilton&amp;size=100" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="Yarn">
+						<link copy="Red Heart Yarn" url="/s/red-heart?dref=2011&amp;store=gift&amp;size=100" host="webhost"/>
+					</menuitem> 
+				</menuitemgroup>	  
+				<menuitemgroup tag="third" col="3">
+					<menuitem tag="hdr3">
+						<link copy="Related Categories"/>
+					</menuitem>
+					<menuitem tag="Storage">
+						<link copy="All Storage &amp; Organization" url="/s/?cat=1024698&amp;size=100" host="webhost"/>
+					</menuitem>			 			
+					<menuitem tag="CraftMagazines">
+						<link copy="Craft Magazines" url="/s/?cat=1022299,1022309&amp;store=magazines&amp;fmt=33&amp;size=30" host="webhost"/>
+					</menuitem>
+					<menuitem tag="CraftBooks">
+						<link copy="Craft Books" url="/u/crafts-hobbies-knitting-sewing-books/379001997" host="webhost"/>
+					</menuitem>
+					<menuitem tag="KidsCrafts">
+						<link copy="Kids' Crafts" url="/u/Arts-and-Crafts-for-Kids/379002584" host="giftshost"/>
+					</menuitem>
+				</menuitemgroup>	
+			</menuitems>  
+		</tab> --> 
+
+		<tab tag="giftcards" type="product">
+			<img url="/presources/images/navbar/tabs/tab_giftcards" width="97" height="36" alt="Gift Cards"/>
+			<link copy="Gift Cards" url="/gift-card/index.asp" host="webhost"/>
+			<param w1024="86" w1280="97" />
+			<menuitems tag="giftcards">
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="Gift Cards"/>
+					</menuitem>
+					<menuitem tag="gc">
+						<link copy="Gift Cards" url="/gift-card/index.asp#see-all-gc" host="webhost"/>
+					</menuitem>
+					<menuitem tag="egc">
+						<link copy="eGift Cards" url="/gift-card/index.asp?pid=36104&amp;cds2Pid=24881" host="webhost"/>
+					</menuitem>
+					<menuitem tag="custom">
+						<link copy="Customize Your Gift Cards" url="/gc/custom_gc.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="corporate">
+						<link copy="Corporate Sales" url="/gc/co/sales.asp" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+				<menuitemgroup tag="second" col="2">
+					<menuitem tag="hdr2">
+						<link copy="Popular Gift Cards"/>
+					</menuitem>
+					<menuitem tag="Christmas">
+						<link copy="Christmas" url="/op/request.aspx?stage=gcInfo&amp;gctype=1&amp;ean=2000003504978" host="netorderpathhost"/>
+					</menuitem>
+					<menuitem tag="Hanukkah">
+						<link copy="Hanukkah" url="/op/request.aspx?stage=gcInfo&amp;gctype=1&amp;ean=2000003504749" host="netorderpathhost"/>
+					</menuitem>					
+					<menuitem tag="green">
+						<link copy="B&amp;N Green" url="/op/request.aspx?stage=gcInfo&amp;gctype=1&amp;ean=2000003504336" host="netorderpathhost"/>
+					</menuitem>
+					<menuitem tag="ebook">
+						<link copy="NOOK" url="/op/request.aspx?stage=gcInfo&amp;gctype=1&amp;ean=2000003504657" host="netorderpathhost"/>
+					</menuitem>
+					<menuitem tag="birthday">
+						<link copy="Birthday" url="/op/request.aspx?stage=gcInfo&amp;gctype=1&amp;ean=2000003504381" host="netorderpathhost"/>
+					</menuitem>
+					<menuitem tag="menu-see-more">
+						<link copy="See More" url="/gift-card/index.asp#see-all-gc" host="webhost"/>
+					</menuitem>
+				</menuitemgroup> 				
+				<menuitemgroup tag="third" col="3">
+					<menuitem tag="hdr3">
+						<link copy="FAQs"/>
+					</menuitem>
+					<menuitem tag="balance">
+						<link secure="1" copy="Check your balance" url="/gc/gc_ViewBalance.asp" host="shophost"/>
+					</menuitem>
+					<menuitem tag="redeem">
+						<link copy="Redeem eBooks Gift Card" url="/ebooksgiftcard/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="help">
+						<link copy="Gift Card Help" url="/gc/gc_about_card.asp" host="webhost"/>
+					</menuitem>
+					<menuitem tag="schedule">
+						<link copy="Delivery Schedule" url="/gc/gc_about_card.asp?linkid=1587321#delinfo" host="webhost"/>
+					</menuitem>
+				</menuitemgroup>
+				
+			</menuitems>
+		</tab> 
+
+		<!-- <tab tag="event-1" type="product" event="1"> 
+			<link copy="Back to School" url="/backtoschool/index.asp" host="webhost"/>
+			<menuitems tag="event-1">  
+				<menuitemgroup tag="first" col="1">
+					<menuitem tag="hdr1">
+						<link copy="School Supplies"/>
+					</menuitem>
+					<menuitem tag="Journals">
+						<link copy="Journals &amp; Notebooks" url="/s?sze=100&amp;store=ALLPRODUCTS&amp;dref=6331,6332&amp;startat=1&amp;srt=sa&amp;size=" host="webhost"/>
+					</menuitem>	
+					<menuitem tag="Backpacks">
+						<link copy="Bags &amp; Backpacks" url="/s?sze=100&amp;store=ALLPRODUCTS&amp;dref=6331,6335&amp;startat=1&amp;srt=sa&amp;size=" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Pencils">
+						<link copy="Pens &amp; Pencils" url="/s?sze=100&amp;store=ALLPRODUCTS&amp;dref=6331,6333&amp;startat=1&amp;srt=sa&amp;size=" host="webhost"/>
+					</menuitem>
+					<menuitem tag="aids">
+						<link copy="Reading Aids" url="/s?sze=100&amp;store=ALLPRODUCTS&amp;dref=6331,6334&amp;startat=1&amp;srt=sa&amp;size=" host="webhost"/>
+					</menuitem>		
+					<menuitem tag="Electronics">
+						<link copy="Electronics" url="/s?sze=100&amp;store=ALLPRODUCTS&amp;dref=6331,6337&amp;startat=1&amp;srt=sa&amp;size=" host="webhost"/>
+					</menuitem>
+					<menuitem tag="dorm">
+						<link copy="Dorm &amp; Desk" url="/s?sze=100&amp;store=ALLPRODUCTS&amp;dref=6331,6336&amp;startat=1&amp;srt=sa&amp;size=" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Calendars">
+						<link copy="Calendars &amp; Planners" url="/container/2-3-merch.asp?PID=24306" host="webhost"/>
+					</menuitem> 			
+				</menuitemgroup>  
+				
+				<menuitemgroup tag="firstBottom" col="1">
+					<menuitem tag="hdr1Bottom">
+						<link copy="Textbooks"/>
+					</menuitem> 
+					<menuitem tag="Rentals">
+						<link copy="Used, New &amp; Rentals" url="/u/textbooks-college-textbooks/379002366" host="webhost"/>
+					</menuitem>
+					<menuitem tag="eTextbooks">
+						<link copy="eTextbooks" url="/u/nookstudy-etextbooks-free-trial/379002672/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="SparkNotes">
+						<link copy="SparkNotes Study Aids" url="/u/spark-notes-test-prep/379001627" host="webhost"/>
+					</menuitem>			
+					<menuitem tag="NOOKStudy">
+						<link copy="Discover NOOK Study" url="/nookstudy" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Foreign">
+						<link copy="Foreign Language" url="/u/spanish-french-italian-language-books/379001623" host="webhost"/>
+					</menuitem>					
+				</menuitemgroup>    
+				
+				<menuitemgroup tag="second" col="2">
+					<menuitem tag="hdr2">
+						<link copy="Books"/>
+					</menuitem>  
+					<menuitem tag="Reference">
+						<link copy="Reference &amp; Writing Guides" url="/u/writing-grammar-reference-books/379001625" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Computer">
+						<link copy="Computer Books" url="/u/computer-guides-software-manuals/379001622" host="webhost"/>
+					</menuitem>
+					<menuitem tag="prep">
+						<link copy="Test Prep &amp; College Guides" url="/u/test-prep-college-grants-books/379001626" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Classics">
+						<link copy="B&amp;N Classics" url="/u/barnes-and-noble-classics-library/379001632" host="webhost"/>
+					</menuitem>		
+					<menuitem tag="fav">
+						<link copy="Back-to-School Favorites" url="/u/back-to-school-reference-test-prep/379002980" host="webhost"/>
+					</menuitem>
+					<menuitem tag="Stone">
+						<link copy="Rosetta Stone Language Sets" url="/u/rosetta-stone-language-learning/379001624" host="webhost"/>
+					</menuitem>								  
+				</menuitemgroup>	 
+				
+				<menuitemgroup tag="secondBottom" col="2">
+					<menuitem tag="hdr2Bottom">
+						<link copy="Toys &amp; Games"/> 
+					</menuitem>		 
+					<menuitem tag="LeapFrog">
+						<link copy="LeapFrog" url="/u/LeapFrog-Toys-Leapfrog-Games/379002598" host="giftshost"/>
+					</menuitem>			 			
+					<menuitem tag="Crayola">
+						<link copy="Crayola" url="/toys-and-games/cdsSearch.aspx?srt=SA&amp;SZE=40&amp;store=toy&amp;CAT=1025011" host="giftshost"/>
+					</menuitem>
+					<menuitem tag="all">
+						<link copy="All Educational Toys &amp; Games" url="/u/Learning-Back-to-School/379002591" host="giftshost"/>
+					</menuitem> 
+				</menuitemgroup>
+				
+				<menuitemgroup tag="third" col="3">
+					<menuitem tag="hdr3">
+						<link copy="Books by Grade"/>
+					</menuitem>  
+					<menuitem tag="ref">
+						<link copy="Kids' Reference" url="/container/2-3-merch.asp?PID=23680" host="webhost"/>
+					</menuitem>
+					<menuitem tag="start">
+						<link copy="Starting School Books" url="/container/2-3-merch.asp?PID=23677" host="webhost"/>
+					</menuitem>
+					<menuitem tag="read">
+						<link copy="Starting to Read" url="/u/I-Can-Read/379002977/?cds2Pid=31479" host="webhost"/>
+					</menuitem>
+					<menuitem tag="elementary">
+						<link copy="Elementary Readers" url="/container/2-3-merch.asp?PID=23681" host="webhost"/>
+					</menuitem>		
+					<menuitem tag="middle">
+						<link copy="Middle School Readers" url="/container/2-3-merch.asp?PID=23679" host="webhost"/>
+					</menuitem>	 								  
+				</menuitemgroup>	 
+  
+   				
+				<menuitemgroup tag="thirdbottom" col="3">
+					<menuitem tag="hdr3bottom">
+						<link copy="Teachers &amp; Parents"/> 
+					</menuitem>			 		 			
+					<menuitem tag="bnSchool">
+						<link copy="B&amp;N@School" url="/bn-at-school/" host="webhost"/>
+					</menuitem>
+					<menuitem tag="ed">
+						<link copy="Educator Discounts" url="/bn-at-school/educator.asp" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="Homeschooling">
+						<link copy="Homeschooling Books" url="/u/homeschool-education-math-english/379001631" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="Workbooks">
+						<link copy="Workbooks" url="/container/2-3-merch.asp?PID=23678" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="Teachers">
+						<link copy="Books for Teachers" url="/u/teacher-resources-classroom-management/379001629" host="webhost"/>
+					</menuitem> 
+					<menuitem tag="specialEd">
+						<link copy="Special Education" url="/u/special-education-reference/379001628" host="webhost"/>
+					</menuitem> 
+				</menuitemgroup>	   
+				
+			</menuitems>  
+		</tab> --> 
+ 
+	</tabs>
+
+
+	<searches>
+		<search tag="global" type="ddlist">
+			<input type="choice">
+				<value label="All Products" qs-env="xproduct">allproducts</value>
+				<value label="Books" qs-env="books">book</value>
+				<value label="NOOK Store" qs-env="nookstore">nookstore</value>	
+				<value label="NOOK Books" qs-env="ebooks">ebook</value>
+				<value label="Movies &amp; TV" qs-env="video">dvd</value>
+				<value label="Music" qs-env="music">music</value>
+				<value label="Kids&#39; Books" qs-env="kids">kids</value>
+				<value label="Marketplace" qs-env="oop">oop</value>
+				<value label="Rare Books" qs-env="rare">rare</value>
+				<value label="Newsstand" qs-env="periodicals">periodicals</value>
+				<value label="Calendars" qs-env="calendars">calendar</value>
+				<value label="Home &amp; Gifts" qs-env="homeoffice">gift</value>
+				<value label="Toys &amp; Games" qs-env="toysgames">toy</value>
+				<value label="Video Games" qs-env="videogames">videogame</value>
+				<!-- <value label="Textbooks" qs-env="textbooks">textbook</value> -->
+				<!--  <value label="Magazines" qs-env="magazines">magazines</value> -->
+			</input>
+		</search> 
+
+		<search tag="home" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="books" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="oop" type="advanced">
+			<link url="/used/search_used.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="rare" type="advanced">
+			<link url="/used/search_used.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="textbooks" type="advanced">
+			<link url="/textbooks/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="video" type="advanced">
+			<link url="/search/search.asp" host="videohost" rel="nofollow"/>
+		</search>
+		<search tag="music" type="advanced">
+			<link url="/search/search.asp" host="musichost" rel="nofollow"/>
+		</search>
+		<search tag="videogames" type="advanced">
+			<link url="/search/search.asp" host="videogamehost" rel="nofollow"/>
+		</search>
+		<search tag="xproduct" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="ebooks" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="bargain" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="kids" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="calendars" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="homeoffice" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="toysgames" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+		<search tag="magazines" type="advanced">
+			<link url="/search.asp" host="webhost" rel="nofollow"/>
+		</search>
+	</searches> 
+    
+    <cdsfeeds>
+		<feed name="hdrpromo">
+			{pid=37650;node=navpromos}
+       </feed>
+	   <feed name="flyout">
+	   		{pid=37651;node=navpromos}
+	   </feed>
+	   <feed name="messages">
+	   		{pid=38992;node=navpromos}
+	   </feed> 
+    </cdsfeeds>
+			
+</bnNavFE>
+
